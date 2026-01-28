@@ -14,92 +14,131 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html" class="header-logo">watchcharm</a>
-
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="./index.html">Home</a>
+    <!-- #region header -->
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="header-logo">watchcharm</a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">About Us</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Catalog</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Sale</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Reviews</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-social-list">
+          <li class="header-social-item">
+            <a class="header-social-link" href="" target="_blank">
+              <img
+                src="./images/facebook.svg"
+                alt="facebook"
+                width="36"
+                height="36"
+              />
+            </a>
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">About Us</a>
+          <li class="header-social-item">
+            <a class="header-social-link" href="" target="_blank">
+              <img
+                src="./images/instagram.svg"
+                alt="instagram"
+                width="36"
+                height="36"
+              />
+            </a>
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Catalog</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Sale</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Reviews</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Contact Us</a>
+          <li class="header-social-item">
+            <a class="header-social-link" href="" target="_blank">
+              <img
+                src="./images/youtube.svg"
+                alt="youtube"
+                width="36"
+                height="36"
+              />
+            </a>
           </li>
         </ul>
-      </nav>
-
-      <ul class="header-social-list">
-        <li class="header-social-item">
-          <a class="header-social-link" href="" target="_blank">
-            <img
-              src="./images/facebook.svg"
-              alt="facebook"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-        <li class="header-social-item">
-          <a class="header-social-link" href="" target="_blank">
-            <img
-              src="./images/instagram.svg"
-              alt="instagram"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-        <li class="header-social-item">
-          <a class="header-social-link" href="" target="_blank">
-            <img
-              src="./images/youtube.svg"
-              alt="youtube"
-              width="36"
-              height="36"
-            />
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
+    <!-- #endregion header -->
     <main>
-      <!-- HERO SECTION -->
+      <!-- #region HERO SECTION -->
       <section class="hero">
-        <h1 class="hero-title">
-          Welcome to our
-          <span class="hero-title-part">collection</span>
-          of premium watches
-        </h1>
-        <p class="hero-descr">
-          Our watches are not just timepieces, but also an expression of your
-          personality and lifestyle. From classic designs to modern ones, we
-          have a watch to suit every taste and occasion.
-        </p>
-        <img
-          src="./images/hero-image.png"
-          alt="hero-image"
-          width="146"
-          height="60"
-        />
-        <a href="" class="hero-link">Scroll down</a>
-        <img
-          src="./images/hero-watch.png"
-          alt="hero-watch"
-          width="1150"
-          height="500"
-        />
+        <div class="container">
+          <h1 class="hero-title">
+            Welcome to our
+            <span class="hero-title-part">collection</span>
+            of premium watches
+          </h1>
+          <p class="hero-descr">
+            Our watches are not just timepieces, but also an expression of your
+            personality and lifestyle. From classic designs to modern ones, we
+            have a watch to suit every taste and occasion.
+          </p>
+          <img
+            src="./images/hero-image.png"
+            alt="hero-image"
+            width="146"
+            height="60"
+          />
+          <a href="" class="hero-link">Scroll down</a>
+          <img
+            src="./images/hero-watch.png"
+            alt="hero-watch"
+            width="1150"
+            height="500"
+          />
+        </div>
       </section>
+      <!-- #endregion HERO SECTION -->
+      <!-- #region About Us -->
+      <section class="about-us">
+        <div class="container">
+          <ul class="about-list">
+            <li class="about-item">
+              <h2>About Us</h2>
+              <p class="about-deskr">
+                Welcome to our premium watch collection, where luxury and style
+                meet functionality and precision. Our selection of timepieces
+                embodies the very best in Swiss craftsmanship and engineering,
+                ensuring that you'll always have a reliable and stylish
+                accessory on your wrist.
+              </p>
+              <p class="about-deskription">
+                At our premium watch collection, we believe that a watch is more
+                than just a timekeeping device – it's a statement piece that
+                reflects your personality and style. So why settle for anything
+                less than the best?
+              </p>
+              <button class="about-button">View catalog</button>
+            </li>
+            <li>
+              <img
+                class="about-img"
+                src="./images/about-image.png"
+                alt="about-image.png"
+                width="530"
+                height="532"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- #endregion About Us -->
     </main>
     <footer></footer>
   </body>
