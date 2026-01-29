@@ -77,8 +77,8 @@ h3 {
 
 .container {
   width: 100%;
-  max-width: 1310px;
-  padding: 0 65px;
+  max-width: 1180px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -287,6 +287,8 @@ h3 {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
 .catalog-prise {
