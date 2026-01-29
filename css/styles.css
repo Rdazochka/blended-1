@@ -67,6 +67,14 @@ h2 {
   color: #0c0c0c;
 }
 
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
 .container {
   width: 100%;
   max-width: 1310px;
@@ -222,6 +230,7 @@ h2 {
 .about-list {
   display: flex;
   gap: 40px;
+  justify-content: space-between;
 }
 
 .about-item {
@@ -255,3 +264,37 @@ h2 {
 .about-img {
 }
 /* #endregion About Us */
+/* #region Catalog */
+.catalog-title {
+  margin-bottom: 40px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 23px;
+}
+
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+  width: calc((100% - 2 * 23px) / 3);
+  padding: 24px 32px;
+}
+
+.catalog-descr {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.catalog-prise {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+/* #endregion Catalog */
